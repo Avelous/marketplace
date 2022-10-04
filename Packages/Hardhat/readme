@@ -1,0 +1,10 @@
+1. create a decentralized NFT marketplace
+    2. listItem: List NFTs on the marketplace
+    3. buyItem: Buy the NFTs
+    4. cancelItem Listing
+    5. updateListings Update Price
+    6. withdrawProceeds: 
+
+
+    add other tokens - pricefeed
+    erc1165

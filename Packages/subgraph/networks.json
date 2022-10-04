@@ -1,0 +1,30 @@
+{
+  "goerli": {
+    "NftMarketplace": {
+      "address": "0xda3FA696658493a025c48242A59Ba3683ccFEa9d"
+    },
+    "BasicNft": {
+      "address": "0x0A08846eC5abd7D357a35C98941D1F7e7cE661E5"
+    },
+    "ProxyAdmin": {
+      "address": "0x30bDbf5A4f92c173A3bcCDAa9D6bD8173521fe4B"
+    },
+    "TransparentUpgradeableProxy": {
+      "address": "0x699c20624c9E9b28F6eA5cfA166ec056d4479109"
+    }
+  },
+  "localhost": {
+    "BasicNft": {
+      "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
+    },
+    "NftMarketplace": {
+      "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+    },
+    "ProxyAdmin": {
+      "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0"
+    },
+    "TransparentUpgradeableProxy": {
+      "address": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9"
+    }
+  }
+}
