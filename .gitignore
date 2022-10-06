@@ -9,4 +9,4 @@ cache
 artifacts
 deployments
 .env.local
-.next
+

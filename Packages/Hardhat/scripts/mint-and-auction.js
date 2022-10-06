@@ -1,7 +1,7 @@
 const { ethers, network } = require("hardhat")
 const { moveBlocks } = require("../utils/move-blocks")
 
-const PRICE = ethers.utils.parseEther("0.01")
+const PRICE = ethers.utils.parseEther("1.5")
 
 async function mintAndAuction() {
     const proxy = await ethers.getContract("TransparentUpgradeableProxy")
@@ -10,9 +10,9 @@ async function mintAndAuction() {
         proxy.address
     )
 
-    const basicNft = await ethers.getContract("BasicNft")
+    const basicNft = await ethers.getContract("BasicNft2")
     const currentBlock = await ethers.provider.getBlock()
-    const futureTime = currentBlock.timestamp + 24 * 60 * 60
+    const futureTime = currentBlock.timestamp + 24 * 10 * 60 * 60
 
     console.log("Minting NFT...")
     const mintTx = await basicNft.mintNft()

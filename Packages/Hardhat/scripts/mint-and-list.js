@@ -11,7 +11,7 @@ async function mintAndList() {
     )
 
     const randomNumber = Math.floor(Math.random() * 2)
-    const basicNft = await ethers.getContract("BasicNft")
+    const basicNft = await ethers.getContract("BasicNft2")
 
     console.log("Minting NFT...")
     const mintTx = await basicNft.mintNft()
